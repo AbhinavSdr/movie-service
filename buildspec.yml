@@ -29,6 +29,6 @@ post_build:
     - echo printing imagedefinitions.json
     - cat imagedefinitions.json
 artifacts:
-files:
-  - imagedefinitions.json
-  - target/movie-service-0.0.1-SNAPSHOT.jar
+  files:
+    - imagedefinitions.json
+    - target/movie-service-0.0.1-SNAPSHOT.jar
